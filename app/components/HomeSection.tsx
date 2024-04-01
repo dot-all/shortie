@@ -95,7 +95,7 @@ export default function HomeSection() {
                 <h3 className="font-bold">CÓDIGO QR</h3>
                 {
                   data ? 
-                  <QRCode value={`${process.env.NEXT_PUBLIC_BASE_URL}/api/${data.code}`} ref={canvasRef} id='QR' size={100} eyeRadius={10} qrStyle='dots'/>
+                  <QRCode value={`https://shortie-url.vercel.app//api/${data.code}`} ref={canvasRef} id='QR' size={100} eyeRadius={10} qrStyle='dots'/>
                   : <></>
                 }
               </div>
@@ -105,8 +105,8 @@ export default function HomeSection() {
                   <React.Fragment key={data.code}>
                     <span className='h-5 w-5'></span>
                     <span className='h-5 w-5'></span>
-                    <div className='flex flex-row'><img className='w-5 mr-1' src="icons/link-outline.svg" alt="link icono" /><a target="_blank" href={`/api/${data.code}`} className="hover:underline text-[12px] s:text-base font-medium">{process.env.NEXT_PUBLIC_BASE_URL}{data.code}</a>
-                      <button onClick={() => handleCopyUrl(`${process.env.NEXT_PUBLIC_BASE_URL}/api/${data.code}`)}>
+                    <div className='flex flex-row'><img className='w-5 mr-1' src="icons/link-outline.svg" alt="link icono" /><a target="_blank" href={`/api/${data.code}`} className="hover:underline text-[12px] s:text-base font-medium">https://shortie-url.vercel.app/{data.code}</a>
+                      <button onClick={() => handleCopyUrl(`https://shortie-url.vercel.app//api/${data.code}`)}>
                         <img src="icons/copy-outline.svg" alt="copy icon" className='ml-1 mb-2 w-4' title='Copiar'/>
                       </button>
                     </div>
