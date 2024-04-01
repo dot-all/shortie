@@ -105,7 +105,7 @@ export default function HomeSection() {
                   <React.Fragment key={data.code}>
                     <span className='h-5 w-5'></span>
                     <span className='h-5 w-5'></span>
-                    <div className='flex flex-row'><img className='w-5 mr-1' src="icons/link-outline.svg" alt="link icono" /><a target="_blank" href={`/api/${data.code}`} className="hover:underline text-[12px] s:text-base font-medium">shortie-url.vercel.app/{data.code}</a>
+                    <div className='flex flex-row'><img className='w-5 mr-1' src="icons/link-outline.svg" alt="link icono" /><a target="_blank" href={`/api/${data.code}`} className="hover:underline text-[12px] s:text-base font-medium">shortie-url/{data.code}</a>
                       <button onClick={() => handleCopyUrl(`https://shortie-url.vercel.app//api/${data.code}`)}>
                         <img src="icons/copy-outline.svg" alt="copy icon" className='ml-1 mb-2 w-4' title='Copiar'/>
                       </button>
