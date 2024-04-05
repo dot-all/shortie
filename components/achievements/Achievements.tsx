@@ -25,7 +25,7 @@ const features = [
 
 export default function Achievements() {
   return (
-    <article className="min-h-screen w-11/12 sm:w-10/12 mx-auto bg-gradient-to-b from-[#9D00A3]/10 via-white flex flex-col items-center my-20">
+    <article className="min-h-screen w-11/12 sm:w-10/12 mx-auto bg-gradient-to-b from-[#9D00A3]/10 via-white flex flex-col items-center my-20" id="achievements">
       <section className="w-10/12 mx-auto flex flex-col items-center gap-8 mb-8">
         <span className="text-sm font-bold mt-32 sm:mt-40 text-[#9D00A3]">¿POR QUÉ SHORTIE?</span>
         <h2 className="text-3xl sm:text-4xl font-bold text-center">Porque usar nuestro servicio</h2>
