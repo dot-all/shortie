@@ -45,7 +45,7 @@ import {
 } from "@/components/ui/navigation-menu"
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(() => window.scrollY > 0 ? true : false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
