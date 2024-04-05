@@ -41,7 +41,7 @@ export default function Questions() {
         <AccordionItem value="item-3">
           <AccordionTrigger>¿Qué es un código QR?</AccordionTrigger>
           <AccordionContent>
-            Un código QR (del inglés Quick Response, "respuesta rápida") es un código de barras bidimensional que puede ser leído por un smartphone o un dispositivo móvil con cámara. Los códigos QR se utilizan para almacenar información, como una URL, un número de teléfono, un mensaje de texto o una dirección de correo electrónico.
+            Un código QR (del inglés Quick Response, respuesta rápida) es un código de barras bidimensional que puede ser leído por un smartphone o un dispositivo móvil con cámara. Los códigos QR se utilizan para almacenar información, como una URL, un número de teléfono, un mensaje de texto o una dirección de correo electrónico.
             <br /><br />
             Los códigos QR se utilizan para una variedad de propósitos, como:
             <br />
