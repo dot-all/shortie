@@ -37,3 +37,7 @@
     opacity: 20%;
   }
 }
+
+*, *::after, *::before {
+  scroll-behavior: smooth;
+}
