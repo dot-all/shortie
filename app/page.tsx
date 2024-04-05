@@ -1,15 +1,23 @@
 "use client";
 
-import FooterSection from "./components/FooterSection";
-import FeaturesSection from "./components/FeaturesSection";
-import HomeSection from "./components/HomeSection";
+import Footer from "@/components/footer/Footer";
+import Features from "@/components/feature/Features";
+import HomeShortie from "@/components/home/Home";
+import Navbar from "@/components/header/Navbar";
+import Achievements from "@/components/achievements/Achievements";
+import Questions from "@/components/question/Questions";
 
 export default function Home() {
   return (
+    <>
+    <Navbar/>
     <main>
-      <HomeSection />
-      <FeaturesSection/>
-      <FooterSection/>
+      <HomeShortie />
+      <Features/>
+      <Achievements/>
+      <Questions/>
+      <Footer/>
     </main>
+    </>
   );
 }
