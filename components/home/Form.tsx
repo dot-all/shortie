@@ -69,10 +69,7 @@ export default function Form({ setData }: FormProps) {
           onChange={(event) => setNewUrl(event.target.value)}
           className="w-full h-14 rounded-lg pl-4"
           />
-        {/* <button type="submit" className="bg-[#9D00A3] hover:bg-[#9D00A3] text-white font-bold py-3 px-5 rounded-lg absolute right-2 top-[6px] text-sm">
-          Shortie
-        </button> */}
-        <Button text='shortie' className='text-sm absolute right-1 top-[6px] py-3 px-5' submit />
+        <Button text='shortie' className='text-sm absolute right-2 top-[6px] py-3 px-5' submit />
       </div>
       {
         error ? <p className='pt-4 text-sm w-fit font-bold text-white' >{error}</p>
