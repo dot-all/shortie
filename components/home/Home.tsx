@@ -85,9 +85,9 @@ export default function HomeShortie() {
     <article className="w-full relative bg-[#121180] min-h-screen pt-32" id='product'>
       <section className="w-11/12 sm:w-10/12 mx-auto flex flex-col items-center justify-center">
         <div className="flex flex-col items-center">
-          <div className='flex flex-row text-sm justify-center'>
+          <div className='flex flex-row text-sm justify-center mb-6'>
             <span className="text-white bg-[#FFB549] px-1 rounded mr-2">Click</span>
-            <p className='text-white'>Prueba Shortie gratis con un <span className='text-[#D72363]'>simple click!</span></p>
+            <p className='text-white'>Prueba shortie gratis con un <span className='text-[#D72363]'>simple click!</span></p>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6 text-white text-center">Todo para tus enlaces en <br /> un solo lugar.</h1>
           <p className="text-base text-white text-center mb-12">Transforma tu forma de trabajar. Accede a nuestra plataforma y lleva tus <br /> enlaces y códigos QR al siguiente nivel.</p>
