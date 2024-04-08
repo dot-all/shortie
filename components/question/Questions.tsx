@@ -7,7 +7,7 @@ import {
 
 export default function Questions() {
   return (
-    <article className="w-11/12 sm:w-10/12 mx-auto min-h-screen flex flex-col items-center">
+    <article className="w-11/12 sm:w-10/12 mx-auto sm:min-h-screen flex flex-col items-center">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mx-auto mb-8" >Preguntas frecuentes</h2>
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
