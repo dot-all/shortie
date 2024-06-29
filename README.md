@@ -61,7 +61,7 @@ Follow these steps to set up the project on your local machine:
 ## Contributing
 
 Contributions are welcome! If you want to improve Shortie, follow these steps:
-
+ 
 1. Fork this repository.
 2. Create a new branch (`git checkout -b feature/new-feature`).
 3. Make your changes and commit them (`git commit -am 'feat: Add new feature'`).
