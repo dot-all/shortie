@@ -64,7 +64,7 @@ Contributions are welcome! If you want to improve Shortie, follow these steps:
 
 1. Fork this repository.
 2. Create a new branch (`git checkout -b feature/new-feature`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+3. Make your changes and commit them (`git commit -am 'feat: Add new feature'`).
 4. Push the changes to your branch (`git push origin feature/new-feature`).
 5. Create a Pull Request.
 
