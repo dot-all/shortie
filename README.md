@@ -9,7 +9,7 @@ Shortie is a web application that allows you to shorten URLs and generate QR cod
 
 ## Technologies Used 
 
-### Stack
+### Stack 
 
 - **Database**: MongoDB
 - **Frontend & Backend**: Next.js
