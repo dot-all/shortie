@@ -1,7 +1,7 @@
 # shortie
 
 Shortie is a web application that allows you to shorten URLs and generate QR codes quickly and easily. 
- 
+
 ## Features
 
 - **Shorten URLs**: Transform long URLs into short, easy-to-share links.
