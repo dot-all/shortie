@@ -1,6 +1,7 @@
 # shortie
-
+<a target="_blank" href="shortie-urls.vercel.app/">
 <img src="./public/shortie-web.png">
+</a>
 
 Shortie is a web application that allows you to shorten URLs and generate QR codes quickly and easily.
 
