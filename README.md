@@ -1,5 +1,5 @@
 # shortie
-<a target="_blank" href="shortie-urls.vercel.app/">
+<a target="_blank" href="https://shortie-urls.vercel.app/">
 <img src="./public/shortie-web.png">
 </a>
 
