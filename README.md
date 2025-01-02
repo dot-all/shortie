@@ -16,7 +16,7 @@ Shortie is a web application that allows you to shorten URLs and generate QR cod
 
 - **Database**: MongoDB
 - **Frontend & Backend**: Next.js
-- **Programming Language**: TypeScript
+- **Programming Language**: JavaScript, TypeScript
 
 ### Libraries
 
